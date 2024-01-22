@@ -1,0 +1,33 @@
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-family: "Young Serif", serif;
+  font-size: 16px;
+}
+
+/* MAIN CONTENT */
+img {
+  width: 100%;
+}
+
+.container {
+  padding: 30px;
+}
+
+h1 {
+  line-height: 35px;
+}
+
+.container p {
+  margin: 20px 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 25px;
+}
