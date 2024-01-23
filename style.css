@@ -29,5 +29,42 @@ h1 {
   margin: 20px 0;
   opacity: 0.6;
   font-size: 0.9rem;
-  line-height: 25px;
+  line-height: 20px;
+}
+
+/* PREPARATION TIME */
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.preparation-time h3 {
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+}
+
+.preparation-time ul {
+  opacity: 0.7;
+  margin: 20px;
+  margin-bottom: 0;
+  width: 70%;
+}
+
+.preparation-time li {
+  margin-top: 10px;
+}
+
+.preparation-time span {
+  position: relative;
+  left: 20px;
+}
+
+/* FOOTER */
+footer {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
 }
