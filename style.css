@@ -96,6 +96,41 @@ h2 {
   background: black;
 }
 
+hr {
+  opacity: 0.3;
+}
+
+/* INSTRUCTIONS SECTION */
+.instructions-container ol {
+  margin-left: 20px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  width: 85%;
+  font-family: "Outfit", sans-serif;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.instructions-container li {
+  margin-bottom: 5px;
+}
+
+.instructions-point {
+  position: relative;
+  left: 15px;
+}
+
+.instruction-text {
+  color: black;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.instructions-container b {
+  color: black;
+  opacity: 0.7;
+}
+
 /* FOOTER */
 footer {
   width: 80%;
