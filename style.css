@@ -131,6 +131,26 @@ hr {
   opacity: 0.7;
 }
 
+/* NUTRITION SECTION */
+.nutritions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  margin: 10px;
+}
+
+.nutritions p,
+.nutritions span {
+  width: 40%;
+  margin: 0;
+}
+
+.nutritions span {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
 /* FOOTER */
 footer {
   width: 80%;
