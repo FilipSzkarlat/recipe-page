@@ -10,8 +10,17 @@ body {
   font-family: "Outfit", sans-serif;
   font-family: "Young Serif", serif;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(30, 54%, 90%);
 }
 
+main {
+  max-width: 700px;
+  background-color: white;
+}
 /* MAIN CONTENT */
 img {
   width: 100%;
@@ -135,7 +144,7 @@ hr {
 .nutritions {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-family: "Outfit", sans-serif;
   margin: 10px;
 }
@@ -157,4 +166,18 @@ footer {
   margin: 20px auto;
   text-align: center;
   align-items: center;
+}
+
+/* DESKTOP VIEW */
+@media (min-width: 700px) {
+  img {
+    margin: 20px;
+    border-radius: 10px;
+    width: 660px;
+  }
+
+  main {
+    margin: 20px 0;
+    border-radius: 20px;
+  }
 }
